@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid #000;
+      border-collapse: collapse;
+      padding: 3px 15px;
+    }
+
+    th {
+      background: rgb(102, 102, 102);
+      color: #fff
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Tabelas</h1>
+  <h3>Tabela Normal</h3>
+
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+      <th>Telefone</th>
+    </tr>
+    <tr>
+      <td>João</td>
+      <td>29</td>
+      <td>55 11 9999-9999</td>
+    </tr>
+    <tr>
+      <td>Patricia</td>
+      <td>45</td>
+      <td>55 11 9972-9459</td>
+    </tr>
+  </table>
+
+  <h3>Tabela com Colspan</h3>
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+      <th colspan="2">Telefome</th>
+    </tr>
+    <tr>
+      <td>João</td>
+      <td>29</td>
+      <td>55 11 9999-9999</td>
+      <td>55 11 9999-9999</td>
+    </tr>
+    <tr>
+      <td>Patricia</td>
+      <td>45</td>
+      <td>55 11 9972-9459</td>
+      <td>55 11 9999-9999</td>
+    </tr>
+  </table>
+
+  <h3>Tabela com Rowspan</h3>
+  <table>
+    <tr>
+      <th>Sexo</th>
+      <th>Nome</th>
+      <th>Idade</th>
+      <th colspan="2">Telefome</th>
+    </tr>
+    <tr>
+      <td>M</td>
+      <td>João</td>
+      <td>29</td>
+      <td>55 11 9999-9999</td>
+      <td>55 11 9999-9999</td>
+    </tr>
+    <tr>
+      <td rowspan="2">F</td>
+      <td>Patricia</td>
+      <td>45</td>
+      <td>55 11 9972-9459</td>
+      <td>55 11 9999-9999</td>
+    </tr>
+    <tr>
+      <td>Fernanda</td>
+      <td>25</td>
+      <td>55 11 9972-9459</td>
+      <td>55 11 9999-9999</td>
+    </tr>
+  </table>
+
+
+</body>
+
+</html>
